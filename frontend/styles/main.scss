@@ -1,0 +1,251 @@
+
+// color primary
+/*
+
+    green : rgb(0, 122, 11)
+    text primary : rgba(41, 41, 41, 1)
+    yellow : #ff971e
+
+    font 
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    text-color-primary = #333333
+    text-gray-3 = #828282
+
+*/
+
+body {
+    background-color: white;
+    // font-family: "sans-serif", "Georgia";
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    color: #333333;
+}
+
+// Navbar 
+
+.navbar-brand {
+    img {
+        max-height: 60px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            // color : rgb(0, 122, 11);
+            font-family: 'Assistant', sans-serif;
+            font-weight: 500;
+            color: #333333;
+
+            &.active {
+                font-weight: bold;
+                color: #ff971e;
+            }
+        }
+    }
+}
+
+.btn-navbar {
+    background-color: rgb(0, 122, 11);
+    color: white;
+}
+
+header {
+    padding: 190px 0px 165px; // mengatur posisi text
+    background-image: url('../images/bromo.jpg'); // background image
+    background-size: cover; // untuk mengikuti panjang layar
+
+    h1, p {
+        color: white;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        
+        // 42e360
+        background-color: #ff971e;
+        color: white;
+
+        &:hover {
+            background-color: #A4DE02;
+            color: white;
+        }
+    }
+
+}
+
+.section-kegiatan {
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+}
+
+.section-kegiatan-content {
+
+    a {
+        text-decoration: none;
+        color: #333333;
+    }
+
+    .card-kegiatan {
+        border: none;
+        min-height: 380px;
+        h3 {
+            font-weight: bold;
+            font-size: 20px;
+            max-lines: 4;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: normal;
+            max-lines: 2;
+        }
+
+    }
+
+}
+
+.section-artikel {
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+}
+
+.section-artikel-content {
+
+        img {
+            height: 170px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+            max-lines: 4;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: normal;
+            max-lines: 2;
+            color: #484848;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333333;
+        }
+
+}
+
+.section-support{
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: normal;
+        max-lines: 2;
+    }
+}
+
+.section-support-content {
+    background-color: white;
+
+    .support-logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+
+
+.content-detail {
+
+
+    .container-photo {
+        display: block;
+
+        .photo {
+            width: 100%;
+            display: block;
+            box-shadow: none;
+        }
+    }
+
+    .content-description {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #333333;
+        font-family: 'Source Sans Pro', sans-serif;
+
+    }
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 35px;
+        // margin-top: 30px;
+        color: #333333;
+        letter-spacing: 0.05em;
+    }
+
+    h3 {
+        margin-top: 20px;
+        color: #484848;
+        font-size: 18px;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 0.02em;
+        font-weight: 500;
+    }
+
+}
+
+.section-footer {
+
+    img {
+        max-height: 60px;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: #333333;
+
+        &.hover {
+            color: #ff971e;
+        }
+    }
+
+    h5 {
+        font-weight: bold;
+    }
+
+    p {
+        font-weight: 500;
+    }
+}
